@@ -9,12 +9,12 @@ Requisitos para este milestone (port completo para Android). Cada um mapeia para
 
 ### Ambiente (ENV)
 
-- [ ] **AND-00**: O ambiente de desenvolvimento passa em `scripts/check-android-env.sh` sem nenhum `[FAIL]`
+- [x] **AND-00**: O ambiente de desenvolvimento passa em `scripts/check-android-env.sh` sem nenhum `[FAIL]`
 
 ### Build (BUILD)
 
 - [ ] **AND-01**: O projeto compila para `aarch64-linux-android` e gera um APK de debug instalável
-- [ ] **AND-02**: O alvo Linux desktop continua compilando e os testes existentes continuam passando
+- [x] **AND-02**: O alvo Linux desktop continua compilando e os testes existentes continuam passando
 
 ### Limpeza de Plataforma (PLATFORM)
 
@@ -66,9 +66,9 @@ Fases conforme a estrutura recomendada pela pesquisa de domínio (`.planning/res
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AND-00 | Phase 1 | Pending |
+| AND-00 | Phase 1 | Complete |
 | AND-01 | Phase 1 | Pending |
-| AND-02 | Phase 1 | Pending |
+| AND-02 | Phase 1 | Complete |
 | AND-10 | Phase 2 | Pending |
 | AND-03 | Phase 3 | Pending |
 | AND-04 | Phase 3 | Pending |

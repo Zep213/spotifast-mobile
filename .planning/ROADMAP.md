@@ -42,7 +42,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 **Wave 1**
 
-- [ ] 01-01-PLAN.md — Install cargo-apk (D-01), pass env check (AND-00), D-06 fork audit (PR #3867), desktop gate script + pre-change baseline
+- [x] 01-01-PLAN.md — Install cargo-apk (D-01), pass env check (AND-00), D-06 fork audit (PR #3867), desktop gate script + pre-change baseline
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
@@ -154,7 +154,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Minimal Android Build + Core Risk Spikes | 0/4 | Planned | - |
+| 1. Minimal Android Build + Core Risk Spikes | 1/4 | In Progress|  |
 | 2. Strip Desktop-Only Code Paths | 0/TBD | Not started | - |
 | 3. Touch UI Adaptation | 0/TBD | Not started | - |
 | 4. Login & Credentials | 0/TBD | Not started | - |
