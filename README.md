@@ -1,3 +1,12 @@
+> **Spotifast Android (fork)** — This repository is a personal, work-in-progress port of
+> [Spotifast](https://github.com/crmne/spotifast) to Android, keeping the original Rust +
+> egui codebase and architecture intact. It is a study project: a fork running on the
+> maintainer's own device, with their own Spotify Premium account — not affiliated with
+> Spotify, not published to any app store, and not distributed to third parties. All credit
+> for Spotifast itself goes to [crmne](https://github.com/crmne) and the upstream project;
+> see [SPOTIFAST-ANDROID.md](SPOTIFAST-ANDROID.md) for the Android port's scope, limits, and
+> roadmap. The rest of this README describes the original desktop app.
+
 <p align="center">
   <img src="docs/assets/images/logo.svg" alt="Spotifast logo" width="88" height="88">
 </p>
@@ -151,6 +160,12 @@ Spotifast is an independent project and is not affiliated with Spotify.
 Spotify is a trademark of Spotify AB.
 
 Licensed under the [MIT License](LICENSE).
+
+**This fork:** the Android port in this repository is a personal study project built on
+top of [crmne/spotifast](https://github.com/crmne/spotifast). All credit for Spotifast's
+design, codebase, and architecture belongs to that project and its contributors — this
+fork only adds an Android target behind platform-specific modules, per
+[SPOTIFAST-ANDROID.md](SPOTIFAST-ANDROID.md).
 
 ## Star history
 
