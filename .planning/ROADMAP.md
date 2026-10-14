@@ -33,7 +33,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   4. App survives screen lock/unlock and rotation without crashing or going black (confirms pinned `crmne/egui`/`crmne/winit` fork commits are downstream of the GL-resume fix)
   5. `fastframe-audio`/cpal compiles for `aarch64-linux-android` and enumerates a real audio device (plays a test tone)
   6. `cargo check` on the desktop Linux target still passes, existing tests still pass
-**Plans**: TBD
+**Plans**: 4 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Install cargo-apk (D-01), pass env check (AND-00), D-06 fork audit (PR #3867), desktop gate script + pre-change baseline
+- [ ] 01-02-PLAN.md — Remove Android compile blockers (rfd, eframe accesskit, credential store arm), add android_main + package metadata, build debug APK, desktop gate
+- [ ] 01-03-PLAN.md — Local x86_64 AVD, install + render proof, cpal/AAudio spike (D-05, stop-on-failure)
+- [ ] 01-04-PLAN.md — GL-resume lifecycle spike (D-04) automated + human check, final phase gates
 
 ### Phase 2: Strip Desktop-Only Code Paths
 **Goal**: Desktop-only modules are cleanly disabled on Android behind `cfg(target_os = "android")` before touch UI work builds navigation around them, so no dead paths exist in the Android interface.
@@ -115,7 +121,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Minimal Android Build + Core Risk Spikes | 0/TBD | Not started | - |
+| 1. Minimal Android Build + Core Risk Spikes | 0/4 | Planned | - |
 | 2. Strip Desktop-Only Code Paths | 0/TBD | Not started | - |
 | 3. Touch UI Adaptation | 0/TBD | Not started | - |
 | 4. Login & Credentials | 0/TBD | Not started | - |
